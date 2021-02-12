@@ -39,7 +39,7 @@ public class LIFO_Array extends ADT_LIFO {
 			System.out.println("Die Schlange ist leer, nichts kann entfernt werden.");
 		} else {
 			// int lastIndexNotNull = this.getLastIndexNotNull();
-			for (int i = 99; i > 0; i--) {
+			for (int i = 99; i >= 0; i--) {
 				if (q[i] != null) {
 					e = q[i];
 					q[i] = null;
